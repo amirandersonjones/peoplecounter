@@ -55,8 +55,9 @@ function total(){
     // let newCount = 0 + total
     // total= 0
     // console.log(newCount)
-    totalEl.textContent += parseInt(newTotal) + parseInt(total)
-    console.log( totalEl.textContent)
+    result = newTotal
+    totalEl.textContent = result
+    console.log(result)
    
 }
 
