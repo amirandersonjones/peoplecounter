@@ -1,15 +1,51 @@
-/* h2 {
 
+*{
+    background: url(images/people.jpg) no-repeat fixed left center;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    background: transparent;
+}
+
+p{
+    background: transparent;
+    font-weight: bold;
 }
 
 button {
-
+    border: 5px;
+    border-color: aliceblue;
+    border-style: ridge;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font: bold;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: black;
 }
 
 #increment-btn {
-
+    background: darkred;
 }
 
 #save-btn {
-    
-} */
+    background: darkgreen;
+} 
